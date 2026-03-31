@@ -1,5 +1,5 @@
  - [ ] Não determinística; probabilistica;
- - [ ] Contexto - Ajuda o meu "corpo do site"
+ - [ ] a Ai precisa de um Contexto - Ajuda o meu "corpo do site" referenciar o arquivo que quero no contexto.
  - [ ] LLM Large Language Model
  - [ ] Mandar o print do contexto!
  - [ ] Autocomplete - boas e ruins

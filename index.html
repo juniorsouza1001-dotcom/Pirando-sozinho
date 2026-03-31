@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Editor | Serviços Profissionais</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">PRO<span> MG</span></div>
+        <ul>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#precos">Pacotes</a></li>
+          <li><a href="#contacto" class="btn-nav">Contactar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Transformo Bruto em <span>Impacto</span>.</h1>
+      <p>
+        Edição de vídeo cinematográfica para criadores e marcas em Lisboa e no
+        mundo.
+      </p>
+      <a href="#precos" class="cta-main">Ver Pacotes</a>
+    </section>
+
+    <section id="precos" class="pricing-section">
+      <h2>Escolha o seu plano</h2>
+      <div class="pricing-container">
+        <div class="price-card">
+          <h3>Basic</h3>
+          <div class="price">€99<span>/vídeo</span></div>
+          <ul>
+            <li>Corte e montagem básica</li>
+            <li>Até 1 minuto de duração</li>
+            <li>Legendas simples</li>
+            <li>1 Revisão</li>
+          </ul>
+          <a href="#" class="btn-card">Selecionar</a>
+        </div>
+
+        <div class="price-card featured">
+          <div class="badge">Mais Popular</div>
+          <h3>Standard</h3>
+          <div class="price">€249<span>/vídeo</span></div>
+          <ul>
+            <li>Edição Cinematográfica</li>
+            <li>Até 5 minutos de duração</li>
+            <li>Sound Design & Mixagem</li>
+            <li>Gráficos em Movimento (Intro/Outro)</li>
+            <li>3 Revisões</li>
+          </ul>
+          <a href="#" class="btn-card">Selecionar</a>
+        </div>
+
+        <div class="price-card">
+          <h3>Premium</h3>
+          <div class="price">€499<span>/vídeo</span></div>
+          <ul>
+            <li>Storytelling Completo</li>
+            <li>Duração ilimitada</li>
+            <li>Color Grading Avançado</li>
+            <li>Legendas Dinâmicas</li>
+            <li>Revisões Ilimitadas</li>
+          </ul>
+          <a href="#" class="btn-card">Selecionar</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2026 Editor Pro - Baseado em Lisboa.
+        <a href="https://instagram.com/teuperfil">Instagram</a>
+      </p>
+    </footer>
+    <div id="modalContacto" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Vamos trabalhar juntos?</h2>
+        <p>Estou disponível para novos projetos em Lisboa e arredores.</p>
+        <div class="contact-info">
+          <span class="phone-number">+351 930 624 532</span>
+          <a
+            href="https://wa.me/351930624532"
+            target="_blank"
+            class="btn-whatsapp"
+            >Enviar mensagem no WhatsApp</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <div class="price-card featured">
+    <div class="badge">Mais Popular</div>
+    <h3>Standard</h3>
+    <div class="price">€249<span>/vídeo</span></div>
+    
+    <div class="qty-selector">
+        <label>Quantidade de vídeos:</label>
+        <input type="number" class="item-qty" value="1" min="1" max="10">
+    </div>
+
+    <ul>
+        <li>Edição Cinematográfica</li>
+        <li>Até 5 minutos de duração</li>
+        <li>Sound Design & Mixagem</li>
+    </ul>
+    
+    <button class="btn-card whatsapp-checkout" data-plan="Standard" data-price="249">
+        Encomendar via WhatsApp
+    </button>
+</div>
+  </body>
+</html>

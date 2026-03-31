@@ -13,5 +13,6 @@
  - [ ] Tree of  thought: árvore de pesnamentos
    - [ ] Gerar várias soluções, e depois escolher a melhor solução, e depois explicar a melhor solução.
  - [ ] Documentação
+ - [ ] PARE: Pergunte, anote , revise, explique, PARE
  - [ ] 
  - [ ] 

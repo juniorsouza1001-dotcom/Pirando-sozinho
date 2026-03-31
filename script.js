@@ -1,7 +1,7 @@
 // Selecionar elementos
 const modal = document.getElementById("modalContacto")
 const btnNav = document.querySelector(".btn-nav") // Botão do Menu
-const btnCards = document.querySelectorAll(".btn-card") // Botões dos Planos
+const btnCards = document.querySelectorAll(".price-card .btn-card") // Botões dos Planos
 const closeBtn = document.querySelector(".close-btn")
 
 // Função para abrir o modal
